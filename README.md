@@ -1,6 +1,6 @@
 ### Running Test Cases for Question 4a
 
-To execute the test cases for Question 4a, follow these steps:
+Before running the tests, ensure that the Selenium server is running in the background.
 
 1. Navigate to the project directory:
 
