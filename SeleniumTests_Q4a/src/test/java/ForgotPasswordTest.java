@@ -54,7 +54,6 @@ public class ForgotPasswordTest {
         assertTrue(button.isDisplayed());
         assertTrue(button.isEnabled());
 
-        // Click button
         button.click();
 
        assertTrue(true);
@@ -102,7 +101,6 @@ public class ForgotPasswordTest {
         field.sendKeys("enter@test.com");
         field.sendKeys(Keys.RETURN);
 
-        // Just verify interaction happened (field still exists = no crash)
         assertTrue(driver.findElement(By.id("email")).isDisplayed());
     }
 }
